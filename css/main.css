@@ -36,7 +36,6 @@ padding-right: 15px;
 
 .header {
     position: relative;
-    /* Определяем модель flex-box для блока .header */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +45,7 @@ padding-right: 15px;
     height: 100vh;
 
     background-color: #526480;
-    background-image: url("./../img/header/screensaver.jpg");
+    background-image: url("./img/header/screensaver.jpg");
     background-size: cover;
     background-position: center;
 }
